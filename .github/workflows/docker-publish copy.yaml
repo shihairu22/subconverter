@@ -38,7 +38,7 @@ jobs:
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: ${{ secrets.AGITHUB_TOKEN }}
 
       - name: 提取 Docker 元数据
         id: meta
