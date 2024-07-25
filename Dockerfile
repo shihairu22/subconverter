@@ -1,5 +1,5 @@
 #FROM tindy2013/subconverter
-FROM dongshull/subconverter:0.9.3
+FROM dongshull/subconverter:0.1.6
 LABEL maintainer="dongshul@qq.com"
 
 ENV VERSION 0.1.6
