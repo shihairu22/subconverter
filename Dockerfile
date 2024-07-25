@@ -1,8 +1,8 @@
 #FROM tindy2013/subconverter
-FROM dongshull/subconverter-s:0.9.3
-LABEL maintainer="shelken.pxk@gmail.com"
+FROM dongshull/subconverter-s:latest
+LABEL maintainer="dongshull"
 
-ENV VERSION 0.9.3
+ENV VERSION 0.1.6
 
 WORKDIR /base
 RUN apk add tzdata --no-cache && \
@@ -17,4 +17,4 @@ EXPOSE 25500
 
 WORKDIR /base
 
-CMD ["subconverter"]
+CMD ["subconverter-s"]
