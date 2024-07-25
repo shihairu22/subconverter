@@ -1,6 +1,5 @@
-#FROM tindy2013/subconverter
-FROM dongshul/subconverter:0.9.3
-LABEL maintainer="dongshul@qq.com"
+FROM alpine:latest
+LABEL maintainer="dongshull"
 
 ENV VERSION 0.1.6
 
