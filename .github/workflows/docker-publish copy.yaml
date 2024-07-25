@@ -65,4 +65,4 @@ jobs:
         with:
           username: ${{ github.actor }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-          repository: dongshull/subconverter
+          repository: yourusername/subconverter
