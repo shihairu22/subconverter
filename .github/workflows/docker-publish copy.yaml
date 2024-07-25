@@ -44,8 +44,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: |
-            ${{ env.REGISTRY }}/${{ github.actor }}/${{ env.IMAGE_NAME }}
+          images: |            
             ${{ github.actor }}/${{ env.IMAGE_NAME }}
 
       - name: 构建并推送 Docker 镜像
