@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 LABEL maintainer="dongshull"
 
-ENV VERSION 0.3.2
+ENV VERSION 0.6.4
 
 WORKDIR /base
 RUN apt-get update && \
