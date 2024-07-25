@@ -1,7 +1,8 @@
-FROM alpine:latest
-LABEL maintainer="dongshull"
+#FROM tindy2013/subconverter
+FROM dongshull/subconverter-s:0.9.3
+LABEL maintainer="shelken.pxk@gmail.com"
 
-ENV VERSION 0.1.6
+ENV VERSION 0.9.3
 
 WORKDIR /base
 RUN apk add tzdata --no-cache && \
