@@ -1,14 +1,17 @@
-#FROM tindy2013/subconverter
-FROM dongshull/subconverter
+FROM ubuntu:latest
+
 LABEL maintainer="dongshull"
 
 ENV VERSION 0.1.6
 
 WORKDIR /base
-RUN apk add tzdata --no-cache && \
+RUN apt-get update && \
+    apt-get install -y tzdata && \
     cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
     echo "Asia/Shanghai" > /etc/timezone && \
-    apk del tzdata
+    apt-get remove --purge -y tzdata && \
+    apt-get autoremove -y && \
+    apt-get clean
 
 COPY groups.txt rulesets.txt /base/snippets/
 COPY pref.yml /base
