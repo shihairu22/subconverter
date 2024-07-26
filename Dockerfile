@@ -1,6 +1,6 @@
 #FROM tindy2013/subconverter
-FROM dongshull/subconverter-s:latest
-LABEL maintainer="dongshull"
+FROM asdlokj1qpi23/subconverter:0.9.3
+LABEL maintainer="shelken.pxk@gmail.com"
 
 ENV VERSION 0.1.6
 
@@ -17,4 +17,4 @@ EXPOSE 25500
 
 WORKDIR /base
 
-CMD ["subconverter-s"]
+CMD ["subconverter"]

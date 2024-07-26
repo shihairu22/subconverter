@@ -1,7 +1,6 @@
 🚀 MyProxy,https://raw.githubusercontent.com/shelken/subconverter/master/custom/MyProxy.list
 🐬 MyDirect,https://raw.githubusercontent.com/shelken/subconverter/master/custom/MyDirect.list
 🕸️ OpenAI,https://raw.githubusercontent.com/shelken/subconverter/master/custom/OpenAI.list
-🇯🇵 JapanSite,https://raw.githubusercontent.com/shelken/subconverter/master/custom/Japan.list
 🚫 AdBlock,https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRule.list
 🚫 AdBlock,https://raw.githubusercontent.com/shelken/ios_rule_script/master/rule/Surge/Hijacking/Hijacking.list
 ▶️ YouTube,https://raw.githubusercontent.com/shelken/ios_rule_script/master/rule/Clash/YouTube/YouTube.list

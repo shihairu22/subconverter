@@ -2,7 +2,6 @@
 🚀 MyProxy`select`[]🔰 PROXY`[]🎯 DIRECT`.*
 🕸️ OpenAI`select`(US|us|美国|🇺🇸|IEPL)`[]🇺🇲 美国节点`
 🔰 PROXY`select`[]🎯 DIRECT`.*
-🇯🇵 JapanSite`select`(Japan|JP|日本|🇯🇵)
 🎬 Media`select`(香港|HK|hk|🇭🇰|台湾|TW|tw|新加坡|SG|sg|🇸🇬)
 ▶️ YouTube`select`[]🔰 PROXY`[]🎬 Media`.*
 🍿 Netflix`select`[]🔰 PROXY`[]🎬 Media`.*
