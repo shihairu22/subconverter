@@ -2,7 +2,7 @@
 FROM asdlokj1qpi23/subconverter:0.9.3
 LABEL maintainer="shelken.pxk@gmail.com"
 
-ENV VERSION 0.3.2
+ENV VERSION 0.6.4
 
 WORKDIR /base
 RUN apk add tzdata --no-cache && \
