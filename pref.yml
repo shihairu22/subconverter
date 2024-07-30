@@ -80,7 +80,7 @@ emojis:
 rulesets:
   enabled: true
   overwrite_original_rules: false
-  update_ruleset_on_request: true
+  update_ruleset_on_request: false
   rulesets:
 #  - {rule: "GEOIP,CN", group: "DIRECT"}
 #  - {ruleset: "rules/LocalAreaNetwork.list", group: "DIRECT"}
