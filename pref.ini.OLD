@@ -167,10 +167,10 @@ rule=!!import:snippets/emoji.txt
 enabled=true
 
 ;Overwrite the existing rules in rule_base
-overwrite_original_rules=false
+overwrite_original_rules=true
 
 ;Perform a ruleset update on request
-update_ruleset_on_request=false
+update_ruleset_on_request=true
 
 ;Ruleset addresses, supports local files/URL
 ;Format: Group name,[type:]URL[,interval]
