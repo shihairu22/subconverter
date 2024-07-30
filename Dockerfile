@@ -1,8 +1,8 @@
 #FROM tindy2013/subconverter
-FROM asdlokj1qpi23/subconverter:0.9.3
+FROM asdlokj1qpi23/subconverter:latest
 LABEL maintainer="shelken.pxk@gmail.com"
 
-ENV VERSION 0.6.4
+ENV VERSION 0.9.7
 
 WORKDIR /base
 RUN apk add tzdata --no-cache && \
