@@ -207,7 +207,7 @@ import = "snippets/groups.toml"
 
 [ruleset]
 # Enable generating rules with rulesets
-enabled = true
+enabled = false
 
 # Overwrite the existing rules in rule_base
 overwrite_original_rules = true
