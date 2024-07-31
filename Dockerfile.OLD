@@ -12,7 +12,6 @@ RUN apk add wget tzdata && \
     rm -rf subconverter_linux64.tar.gz && \
     apk del wget tzdata
 
-COPY groups.txt rulesets.txt /base/subconverter/snippets/
 
 EXPOSE 25500
 
