@@ -151,7 +151,7 @@ advanced:
   enable_cache: true
   cache_subscription: 3600
   cache_config: 3600
-  cache_ruleset: 60
+  cache_ruleset: 86400
   script_clean_context: true
   async_fetch_ruleset: true
   skip_failed_links: false
