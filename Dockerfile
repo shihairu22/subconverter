@@ -1,5 +1,5 @@
 #FROM tindy2013/subconverter
-FROM asdlokj1qpi23/subconverter:latest
+FROM asdlokj1qpi23/subconverter
 LABEL maintainer="shelken.pxk@gmail.com"
 
 ENV VERSION 0.9.7
