@@ -1,7 +1,6 @@
 #FROM tindy2013/subconverter
 FROM asdlokj1qpi23/subconverter
 
-ENV VERSION 0.9.7
 
 WORKDIR /base
 RUN apk add tzdata --no-cache && \
