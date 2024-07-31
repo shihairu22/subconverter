@@ -10,7 +10,6 @@ RUN apk add tzdata --no-cache && \
     echo "Asia/Shanghai" > /etc/timezone && \
     apk del tzdata
 
-COPY groups.txt rulesets.txt /base/snippets/
 COPY pref.example.toml /base
 COPY pref.example.yml /base
 COPY pref.example.ini /base
