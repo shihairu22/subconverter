@@ -1,18 +1,20 @@
-FROM alpine:3.8
-MAINTAINER Stille <stille@ioiox.com>
+FROM asdlokj1qpi23/subconverter
 
-ENV VERSION v0.9.7
 
 WORKDIR /base
-RUN apk add wget tzdata && \
+RUN apk add tzdata --no-cache && \
     cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
     echo "Asia/Shanghai" > /etc/timezone && \
-    wget -P /base https://github.com/tindy2013/subconverter/releases/download/${VERSION}/subconverter_linux64.tar.gz && \
-    tar xzf subconverter_linux64.tar.gz && \
-    rm -rf subconverter_linux64.tar.gz && \
-    apk del wget tzdata
+    apk del tzdata
+
+COPY pref.example.toml /base
+COPY pref.example.yml /base
+COPY pref.example.ini /base
+
 
 
 EXPOSE 25500
 
-CMD ./subconverter/subconverter
+WORKDIR /base
+
+CMD ["subconverter"]
