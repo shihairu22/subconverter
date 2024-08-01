@@ -1,4 +1,3 @@
-#FROM tindy2013/subconverter
 FROM asdlokj1qpi23/subconverter
 
 
