@@ -17,4 +17,4 @@ EXPOSE 25500
 
 WORKDIR /base
 
-CMD ["subconverter"]
+CMD ["/bin/sh -c subconverter"]
