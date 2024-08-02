@@ -7,4 +7,3 @@ RUN apk add tzdata --no-cache && \
 COPY pref.toml /base
 COPY pref.yml /base
 COPY pref.ini /base
-WORKDIR /base
