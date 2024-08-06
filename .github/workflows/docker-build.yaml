@@ -23,7 +23,7 @@ jobs:
       - name: Fetch the latest tag from Docker Hub
         id: fetch_tag
         run: |
-          latest_tag=$(curl -s https://registry.hub.docker.com/v1/repositories/asdlokj1qpi23/subconverter/tags | jq -r '.[-1].name')
+          latest_tag=$(curl -s https://registry.hub.docker.com/r/asdlokj1qpi23/subconverter/tags | jq -r '.[-1].name')
           echo "latest_tag=${latest_tag}" >> $GITHUB_ENV
 
       - name: Check if the latest tag is new
