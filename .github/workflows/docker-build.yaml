@@ -19,7 +19,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
+        
+      - name: Fetch the latest tag from Docker Hub
+        run: |
+          response=$(curl -s https://registry.hub.docker.com/r/asdlokj1qpi23/subconverter/tags)
+          echo "Response from API: $response"
+          latest_tag=$(echo "$response" | jq -r '.[-1].name')
+          echo "latest_tag=${latest_tag}" >> $GITHUB_ENV
+          
       - name: Fetch the latest tag from Docker Hub
         id: fetch_tag
         run: |
