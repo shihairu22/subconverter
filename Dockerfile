@@ -6,3 +6,4 @@ RUN apk add --no-cache tzdata && \
     apk del tzdata && \
     rm -f pref.example.*
 COPY pref.* .
+COPY base/base/ /base/base/
