@@ -5,6 +5,6 @@ RUN apk add --no-cache tzdata && \
     echo "Asia/Shanghai" > /etc/timezone && \
     apk del tzdata && \
     rm -f pref.example.*
-    rm -rf /base/base/*
 COPY pref.* .
+RUN rm -rf /base/base/*
 COPY base/base/ /base/base/
