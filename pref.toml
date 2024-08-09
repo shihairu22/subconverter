@@ -146,7 +146,7 @@ replace = "$1x"
 write_managed_config = true
 
 # Address prefix for MANAGED-CONFIG info, without the trailing "/".
-managed_config_prefix = "https://suc.miaoco.com"
+managed_config_prefix = "http://127.0.0.1:25500"
 
 # Managed config update interval in seconds, determine how long the config will be updated.
 config_update_interval = 86400
