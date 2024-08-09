@@ -10,3 +10,7 @@ RUN rm -rf /base/base/*
 COPY base/* /base/base/
 RUN rm -rf /base/snippets/*
 COPY snippets/* /base/snippets/
+RUN rm -rf /base/config/*
+COPY config/* /base/config/
+RUN rm -rf /base/profiles/*
+COPY profiles/* /base/profiles/
