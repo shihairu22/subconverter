@@ -121,7 +121,7 @@ replace = '$1:$2:$3:0:0:0'
 #tcp_fast_open_flag = false
 #skip_cert_verify_flag = true
 #tls13_flag = false
-
+xxxudp_flag = true
 sort_flag = false
 # Script used for sorting nodes. A "compare" function with 2 arguments which are the 2 nodes to be compared should be defined in the script. Supports inline script and script path.
 # Examples can be seen at the filter_script option in [common] section.
@@ -131,7 +131,7 @@ sort_flag = false
 #}
 #'''
 
-filter_deprecated_nodes = false
+filter_deprecated_nodes = true
 append_sub_userinfo = true
 clash_use_new_field_name = true
 
