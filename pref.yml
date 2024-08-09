@@ -44,7 +44,6 @@ node_pref:
 #  tcp_fast_open_flag: false
 #  skip_cert_verify_flag: false
 #  tls13_flag: false
-  xudp_flag: true
   sort_flag: false
   sort_script: ""
   filter_deprecated_nodes: false
