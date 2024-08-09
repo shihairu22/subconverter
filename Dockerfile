@@ -8,3 +8,5 @@ RUN apk add --no-cache tzdata && \
 COPY pref.* .
 RUN rm -rf /base/base/*
 COPY base/* /base/base/
+RUN rm -rf /base/snippets/*
+COPY snippets/* /base/snippets/
