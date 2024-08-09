@@ -8,5 +8,3 @@ RUN apk add --no-cache tzdata && \
     rm -f pref.example.*
 COPY pref.* .
 COPY all_base.tpl /base/base/
-RUN rm -rf /base/rules/*
-COPY rules/* /base/rules/
