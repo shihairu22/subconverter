@@ -10,5 +10,3 @@ COPY pref.* .
 COPY all_base.tpl /base/base/
 RUN rm -rf /base/rules/*
 COPY rules/* /base/rules/
-RUN rm -f /usr/bin/subconverter
-COPY subconverter /usr/bin/
