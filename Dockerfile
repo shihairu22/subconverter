@@ -14,3 +14,5 @@ RUN rm -rf /base/config/*
 COPY config/* /base/config/
 RUN rm -rf /base/profiles/*
 COPY profiles/* /base/profiles/
+COPY generate.ini /base/
+COPY gistconf.ini /base/
